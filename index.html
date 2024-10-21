@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="w-full bg-black text-gray-200 flex items-center absolute top-0 left-0">
+    <img src="Image/attachment_97097705-removebg-preview.png" alt="" class="ml-32 nav-logo">
+    <span class="w-[65%] nav-items item">
+      <a href="" class="mx-5">What we do <i class="ri-arrow-down-s-fill"></i></a>
+      <a href="">Resources <i class="ri-arrow-down-s-fill"></i></a>
+      <!-- dropdown -->
+      <button class="mx-5  " id="toggleButton">For developers <i class="ri-arrow-down-s-fill"></i></button>
+      <a href="">About us</a>
+      <div class="hidden absolute bg-black" id="toggleSection">
+        <h2>Job opportunities</h2>
+        <p class="text-sm text-gray-300 my-1">Get matched with high paying tech jobs with our company</p>
+        <h2>Job opportunities</h2>
+        <p class="text-sm text-gray-300 my-1">Get matched with high paying tech jobs with our company</p>
+        <h2>Job opportunities</h2>
+        <p class="text-sm text-gray-300 my-1">Get matched with high paying tech jobs with our company</p>
+      </div>
+    </span>
+    <span class="nav-items">
+      <a href="" class="bg-blue-800 px-5 py-2 rounded started-button item">Get Started</a>
+       <!-- dropdown -->
+      <button class="ml-10" id="js-login">Login <i class="ri-arrow-down-s-fill login-icon"></i></button>
+     
+       <div class="login-dropdown absolute bg-black flex flex-col justify-around  pl-8 hidden" id="loginSection"> 
+        <p>For clients</p>
+        <p>For developers</p>
+       </div>
+    </span>
+    
+  </nav>
+  <!-- main -->
+   <main class="w-full h-screen"> 
+   <div class="main-head-section"> 
+   
+    <p class="text-white absolute main-head ">Accelerate your business with expert IT consulting services</p>
+    <button class="main-button text-white bg-blue-800 font-medium rounded" id="expert-button">Talk to an expert</button>
+  </div>
+ 
+      <div class="w-1/2 h-screen main-bg relative"></div>
+       
+   </main>
+
+   <!-- second page -->
+
+   <div class="second-page bg-black  w-full  pt-16 ">
+      
+
+      <h1 class="text-white p-5 text-center   mb-5 font-medium second-head">Analyst
+        recognition</h1>
+        <div class="flex justify-around items-center second-box">
+        <div class="flex flex-col items-center company-section">
+            <div class="company-box p-3 flex items-center rounded-lg mb-3">
+              <img src="Image/Gartner_logo_RGB-removebg-preview.png" alt="" >
+            </div>
+            <p class="text-white text-sm  text-center">Named a 2023 Gartner® Magic <br> Quadrant™ Leader for Custom <br> Software Development Services, <br>Worldwide1</p>
+        </div>
+         
+          <div  class="image-section">
+             <img src="Image/technology.png" alt=""  class="rounded-sm">
+             </div
+           >
+           <div class="flex flex-col items-center company-section ">
+            <div class="company-box p-3 flex items-center rounded-lg mb-3">
+              <img src="Image/Gartner_logo_RGB-removebg-preview.png" alt="" >
+            </div>
+            <p class="text-white text-sm  text-center">Named a 2023 Gartner® Magic <br> Quadrant™ Leader for Custom <br> Software Development Services, <br>Worldwide1</p>
+        </div>
+        </div>
+        <div class=" flex justify-center items-center  last-box ">
+          <div class="flex flex-col items-center">
+            <div class="company-box p-3 flex items-center rounded-lg mb-3">
+              <img src="Image/IDC-logo-2022-removebg-preview.png" alt="" >
+            </div>
+            <p class="text-white text-sm text-center ">Named a 2023 Gartner® Magic <br> Quadrant™ Leader for Custom <br> Software Development Services, <br>Worldwide1</p>
+        </div>
+        </div>
+     
+   </div>
+
+   <!-- third section -->
+
+   <div class="w-full     bg-black third-section"> 
+    <h1 class="  text-center  font-medium text-white third-head">Software Development Services</h1>
+    <div class="flex w-full items-center justify-center">
+      <div class="  development-box-one flex flex-col items-start justify-center">
+       <p class="my-2 font-semibold text-lg text-gray-500">  Software Development</p>
+         <p class="my-2 font-semibold text-lg">Application Development</p>
+        <p class="my-2 font-semibold text-lg">  Cloud Application Development</p>
+         <p class="my-2 font-semibold text-lg">  DevOps Services</p>
+        <p class="my-2 font-semibold text-lg">  Application Modernization</p>
+         <p class="my-2 font-semibold text-lg">  Mobile App Development</p>
+        <p class="my-2 font-semibold text-lg">  Embedded Software</p>
+        <p class="my-2 font-semibold text-lg underline text-gray-500">  View All</p></p>
+      </div>
+      <div class="development-box-two p-12">
+      <h2  class="text-2xl font-semibold pb-8 ">Software Development</h2>
+      <p class="text- pb-8">Software Development Company providing full-scale solutions that have driven innumerable digital transformations since 2000. We build cutting-edge custom software solutions with deep tech expertise.</p>
+   <div class="flex">
+    <div>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Custom Software Development</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Product Development</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Development  </p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Project Rescue</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Maintenance and Support</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Enterprise Software Development</p>
+    </div>
+    <div class="pl-12">
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Custom Software Development</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Product Development</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Development  </p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Project Rescue</p>
+        <p class=" pb-2 font-medium"><i class="ri-logout-circle-r-line text-xs"></i>  Software Maintenance and Support</p>
+    </div>
+   </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- forth section -->
+
+   <div class="w-full h-[70vh] bg-black text-white">
+    <h1 class="text-white py-20  text-center text-3xl font-medium">Technologies and Platforms We Use</h1>
+    <div class="w-100 flex justify-center">
+      <button class="mr-12">Frontend</button>
+      <button class="mr-12"> Backend</button>
+        <button class="mr-12">Mobile</button>
+        <button class="mr-12"> Database</button>
+        <button class="mr-12">Frameworks</button>
+        <button class="mr-12">Cloud</button>
+        <button class="mr-12">DevOps</button>
+        <button class="mr-12">Ecommerce</button>
+        <button class="mr-12">CMS</button>
+        <button class="mr-12">Platforms</button>
+    </div>
+
+   </div>
+   
+ 
+  
+
+</body>
+<script src="script.js"></script>
+</html>

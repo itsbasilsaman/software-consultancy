@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <!-- Tailwind -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <!-- Remix Icons -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="w-full h-screen flex customer-main">
+  <div class=" h-screen flex justify-start flex-col   customer-section first-part">
+    <div class="absolute  customer-head">
+      <h2 class="text-3xl uppercase font-medium">Turing</h2>
+      <p class="text-lg text-blue-800">services</p>
+    </div>
+    <h2 class="text-2xl font-medium mb-6">Your custom tech services</h2>
+    <p class="mb-5">To start building your solutions strategy, we need some contact details.</p>
+    <div class="flex justify-between mb-2">
+      <p id="emailAddress">Work email address</p>
+      <p class="text-blue-800 underline">Why?</p>
+    </div>
+    <input type="text" placeholder="email@example.com" class="p-3 border border-gray-600 rounded" id="emailInput">
+    <p class="text-sm mt-1" id="emailMessage"></p>
+    <p class="my-1" id="phoneNumber">Phone number</p>
+    <input  type="text" class="p-3 border border-gray-600 rounded" id="numberInput" placeholder="phone number">
+    <p class="text-sm mt-1"  id="numberMessage"></p>
+    <div class="mt-5 flex justify-between items-center">
+      <button class="px-16 py-3  border border-gray-600   font-medium rounded buttons">Back</button>
+      <button class="px-16 py-3 bg-blue-800 text-white font-medium rounded buttons" id="continueButton">Continue</button>
+    </div>
+  </div>
+  <div class="  h-screen bg-black flex justify-start flex-col   text-white customer-section">
+    <h2 class="text-2xl font-medium mb-6">How does Services work?</h2>
+    <p class="mb-6">We’re happy to answer questions and build your custom business solution.</p>
+    <p><i class="ri-check-double-line"></i> &nbsp;We build a comprehensive solution strategy</p>
+    <p class="my-6"><i class="ri-check-double-line"></i> &nbsp;We plan, staff, deliver, and manage technology projects and programs across several technical domains</p>
+    <p><i class="ri-check-double-line"></i> &nbsp;We get the right people for the job with the quality, speed, and cost effectiveness of our Talent Cloud</p>
+    <div  class="flex justify-around mt-12 items-center">
+      <img src="Image/sponsors1.png" alt=""  class="company-logo">
+      <img src="Image/sponsors2.png" alt=""  class="company-logo amazon ">
+      <img src="Image/sponsors3.png" alt=""  class="company-logo">
+      <img src="Image/sponsors4.png" alt=""   class="company-logo paypal">
+    </div>
+    <p class="text-center mt-6">Trusted by 900+ amazing companies</p>
+  </div>
+
+
+</body>
+ <script src="customer.js"></script>
+</html>
